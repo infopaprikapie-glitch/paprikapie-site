@@ -3,25 +3,25 @@
   "offers": [
     {
       "title": "6 Pizza Combo — ₹360 only",
-      "description": "Six mini pizzas, six flavours. Perfect for family and friends.",
+      "description": "Six pizzas, six flavours, one price. Perfect for family, friends and parties.",
       "items": [
-        "Queen Margherita",
-        "Farm House",
-        "Tandoori Paneer Tikka",
-        "Cheese Corn",
-        "Onion Fresh Delight",
-        "Veg Pie"
+        "Onion",
+        "Tomato",
+        "Capsicum",
+        "Cheese",
+        "Sweet Corn",
+        "Soya"
       ],
-      "terms": "100% vegetarian. Takeaway & delivery available. Packing charges extra.",
+      "terms": "100% vegetarian. Takeaway & delivery available. Packing charges extra. T&C apply.",
       "whatsapp": "Hi PaprikaPie, I'd like to order the 6 Pizza Combo at ₹360.",
       "image": "img-offer-6-pizza-combo.jpg",
       "active": true
     },
     {
       "title": "Vada Pav Offer — 20% Off",
-      "description": "1 pc at ₹50, or 2 pc at ₹70 — served with spicy and green mint chutney.",
+      "description": "1 pc at ₹50, or 2 pc at ₹70 — served with spicy red or green mint chutney.",
       "items": [],
-      "terms": "Packing charges extra.",
+      "terms": "Limited time offer. Packing charges extra.",
       "whatsapp": "Hi PaprikaPie, I'd like to order Vada Pav with the 20% off offer.",
       "image": "img-offer-vada-pav.jpg",
       "active": true
