@@ -262,6 +262,11 @@ section{padding:52px 0}
   padding:14px 16px;border-bottom:1px solid var(--line);
 }
 .row:last-child{border-bottom:0}
+.row .thumb{
+  width:64px;height:64px;flex:0 0 auto;border-radius:11px;overflow:hidden;
+  background:linear-gradient(145deg,var(--pav-2),#EBD9B8);
+}
+.row .thumb img{width:100%;height:100%;object-fit:cover}
 .row .meta{flex:1;min-width:0}
 .row .nm{font-weight:600;display:flex;align-items:center;gap:7px;font-size:15.5px}
 .row .ds{font-size:13.5px;color:var(--ash);margin-top:2px}
@@ -539,6 +544,7 @@ footer a:hover{color:var(--pav)}
   <div class="note-strip">Add ₹30 for extra butter on any dosa. Every dosa comes with sambar and chutney.</div>
   <h2 id="dosa" style="font-size:24px;font-weight:800;margin:38px 0 14px">Dosa</h2>
 <div class="rows"><div class="row">
+  <div class="thumb"><img src="img-masala-dosa.jpg" alt="Masala Dosa" loading="lazy" width="160" height="120" onerror="this.parentNode.remove()"></div>
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Masala Dosa</div>
     <div class="ds">Golden crepe, spiced potato filling, sambar &amp; chutney</div>
@@ -546,6 +552,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹100</div>
   <button class="add" type="button" data-add="Masala Dosa" data-price="100">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Onion Masala Dosa</div>
     <div class="ds">Classic masala dosa with extra crisp onion</div>
@@ -553,6 +560,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹120</div>
   <button class="add" type="button" data-add="Onion Masala Dosa" data-price="120">+ Add</button>
 </div><div class="row">
+  <div class="thumb"><img src="img-masala-dosa-2.jpg" alt="Paneer Masala Dosa" loading="lazy" width="160" height="120" onerror="this.parentNode.remove()"></div>
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Masala Dosa</div>
     <div class="ds">Loaded with fresh paneer &amp; potato masala</div>
@@ -560,6 +568,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹170</div>
   <button class="add" type="button" data-add="Paneer Masala Dosa" data-price="170">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Italian Masala Dosa</div>
     <div class="ds">Our fusion twist — Italian herbs meet South Indian crepe</div>
@@ -567,6 +576,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹180</div>
   <button class="add" type="button" data-add="Italian Masala Dosa" data-price="180">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paprika Special Dosa</div>
     <div class="ds">Our house special, extra spiced</div>
@@ -575,6 +585,7 @@ footer a:hover{color:var(--pav)}
   <button class="add" type="button" data-add="Paprika Special Dosa" data-price="240">+ Add</button>
 </div></div><h2 id="soya-chaap--tikka" style="font-size:24px;font-weight:800;margin:38px 0 14px">Soya Chaap &amp; Tikka</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Malai Chaap</div>
     <div class="ds">Creamy, mildly spiced soya chaap</div>
@@ -582,6 +593,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Malai Chaap" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Afghani Chaap</div>
     <div class="ds">Rich, mild marinade, char-grilled</div>
@@ -589,6 +601,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Afghani Chaap" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Tandoori Chaap</div>
     <div class="ds">Classic tandoori-spiced chaap</div>
@@ -596,6 +609,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Tandoori Chaap" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Spicy Masala Chaap</div>
     <div class="ds">Extra spiced masala chaap</div>
@@ -603,6 +617,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Spicy Masala Chaap" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Achaari Chaap</div>
     <div class="ds">Pickle-spiced tangy chaap</div>
@@ -610,6 +625,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Achaari Chaap" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Crispy Fried Chaap</div>
     <div class="ds">Crispy batter-fried soya chaap</div>
@@ -617,6 +633,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Crispy Fried Chaap" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Tandoori Paneer Tikka</div>
     <div class="ds">Char-grilled paneer tikka skewers</div>
@@ -624,6 +641,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Tandoori Paneer Tikka" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Mushroom Duplex</div>
     <div class="ds">Stuffed mushroom duplex tikka</div>
@@ -631,6 +649,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Mushroom Duplex" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Mushroom Tikka</div>
     <div class="ds">Char-grilled mushroom tikka</div>

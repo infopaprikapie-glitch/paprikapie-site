@@ -262,6 +262,11 @@ section{padding:52px 0}
   padding:14px 16px;border-bottom:1px solid var(--line);
 }
 .row:last-child{border-bottom:0}
+.row .thumb{
+  width:64px;height:64px;flex:0 0 auto;border-radius:11px;overflow:hidden;
+  background:linear-gradient(145deg,var(--pav-2),#EBD9B8);
+}
+.row .thumb img{width:100%;height:100%;object-fit:cover}
 .row .meta{flex:1;min-width:0}
 .row .nm{font-weight:600;display:flex;align-items:center;gap:7px;font-size:15.5px}
 .row .ds{font-size:13.5px;color:var(--ash);margin-top:2px}
@@ -537,6 +542,7 @@ footer a:hover{color:var(--pav)}
 <div class="chips"><a href="#vada-pav">Vada Pav</a><a href="#maggi">Maggi</a><a href="#pav-bhaji">Pav Bhaji</a><a href="#chinese">Chinese</a><a href="#momos--spring-rolls">Momos &amp; Spring Rolls</a></div>
 <section><div class="wrap"><h2 id="vada-pav" style="font-size:24px;font-weight:800;margin:38px 0 14px">Vada Pav</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Aloo Vada Pav</div>
     <div class="ds">Spiced potato vada in a soft pav, with spicy &amp; green chutney</div>
@@ -544,6 +550,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹49</div>
   <button class="add" type="button" data-add="Aloo Vada Pav" data-price="49">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Veggie Vada Pav</div>
     <div class="ds">Mixed veggie vada pav</div>
@@ -551,6 +558,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹69</div>
   <button class="add" type="button" data-add="Veggie Vada Pav" data-price="69">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Vada Pav</div>
     <div class="ds">Paneer-stuffed vada pav</div>
@@ -559,6 +567,7 @@ footer a:hover{color:var(--pav)}
   <button class="add" type="button" data-add="Paneer Vada Pav" data-price="89">+ Add</button>
 </div></div><h2 id="maggi" style="font-size:24px;font-weight:800;margin:38px 0 14px">Maggi</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Masala Maggi</div>
     <div class="ds">Classic street-style masala Maggi</div>
@@ -566,6 +575,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹59</div>
   <button class="add" type="button" data-add="Masala Maggi" data-price="59">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Butter Masala Maggi</div>
     <div class="ds">Maggi tossed in butter masala</div>
@@ -573,6 +583,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹79</div>
   <button class="add" type="button" data-add="Butter Masala Maggi" data-price="79">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Veggie Maggi</div>
     <div class="ds">Loaded with fresh vegetables</div>
@@ -580,6 +591,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹89</div>
   <button class="add" type="button" data-add="Veggie Maggi" data-price="89">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Maggi</div>
     <div class="ds">Maggi with paneer cubes</div>
@@ -588,6 +600,7 @@ footer a:hover{color:var(--pav)}
   <button class="add" type="button" data-add="Paneer Maggi" data-price="99">+ Add</button>
 </div></div><h2 id="pav-bhaji" style="font-size:24px;font-weight:800;margin:38px 0 14px">Pav Bhaji</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Pav Bhaji</div>
     <div class="ds">Buttery mashed veg bhaji with soft pav</div>
@@ -595,6 +608,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹100</div>
   <button class="add" type="button" data-add="Pav Bhaji" data-price="100">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Pav Bhaji</div>
     <div class="ds">Pav bhaji loaded with paneer</div>
@@ -602,6 +616,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹130</div>
   <button class="add" type="button" data-add="Paneer Pav Bhaji" data-price="130">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Extra Pav (1 pc)</div>
     <div class="ds">One extra buttered pav</div>
@@ -610,6 +625,7 @@ footer a:hover{color:var(--pav)}
   <button class="add" type="button" data-add="Extra Pav (1 pc)" data-price="15">+ Add</button>
 </div></div><h2 id="chinese" style="font-size:24px;font-weight:800;margin:38px 0 14px">Chinese</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Chowmein</div>
     <div class="ds">Classic stir-fried noodles</div>
@@ -617,6 +633,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹100</div>
   <button class="add" type="button" data-add="Chowmein" data-price="100">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Chowmein</div>
     <div class="ds">Chowmein with paneer cubes</div>
@@ -624,6 +641,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹140</div>
   <button class="add" type="button" data-add="Paneer Chowmein" data-price="140">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Singapuri Noodles</div>
     <div class="ds">Singapore-style stir-fried noodles</div>
@@ -631,6 +649,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹160</div>
   <button class="add" type="button" data-add="Singapuri Noodles" data-price="160">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Hakka Noodles</div>
     <div class="ds">Wok-tossed hakka noodles</div>
@@ -638,6 +657,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹160</div>
   <button class="add" type="button" data-add="Hakka Noodles" data-price="160">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Chilli Potato</div>
     <div class="ds">Crispy chilli-tossed potato</div>
@@ -645,6 +665,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹180</div>
   <button class="add" type="button" data-add="Chilli Potato" data-price="180">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Manchurian (Dry)</div>
     <div class="ds">Veg manchurian balls, dry tossed</div>
@@ -652,6 +673,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹180</div>
   <button class="add" type="button" data-add="Manchurian (Dry)" data-price="180">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Manchurian (Gravy)</div>
     <div class="ds">Veg manchurian in rich gravy</div>
@@ -659,6 +681,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹200</div>
   <button class="add" type="button" data-add="Manchurian (Gravy)" data-price="200">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Chilli</div>
     <div class="ds">Paneer tossed in chilli sauce</div>
@@ -666,6 +689,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Paneer Chilli" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Mushroom Chilli</div>
     <div class="ds">Mushroom tossed in chilli sauce</div>
@@ -673,6 +697,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Mushroom Chilli" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Soya Chilli</div>
     <div class="ds">Soya chunks tossed in chilli sauce</div>
@@ -680,6 +705,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹220</div>
   <button class="add" type="button" data-add="Soya Chilli" data-price="220">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Honey Chilli Potato</div>
     <div class="ds">Crispy potato in sweet chilli glaze</div>
@@ -688,6 +714,7 @@ footer a:hover{color:var(--pav)}
   <button class="add" type="button" data-add="Honey Chilli Potato" data-price="220">+ Add</button>
 </div></div><h2 id="momos--spring-rolls" style="font-size:24px;font-weight:800;margin:38px 0 14px">Momos &amp; Spring Rolls</h2>
 <div class="rows"><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Noodles Spring Roll</div>
     <div class="ds">Crisp fried noodle spring roll</div>
@@ -695,6 +722,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹70</div>
   <button class="add" type="button" data-add="Noodles Spring Roll" data-price="70">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Veggie Momos (Steam)</div>
     <div class="ds">Steamed vegetable momos</div>
@@ -702,6 +730,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹90</div>
   <button class="add" type="button" data-add="Veggie Momos (Steam)" data-price="90">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Veggie Momos (Fry)</div>
     <div class="ds">Pan-fried vegetable momos</div>
@@ -709,6 +738,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹100</div>
   <button class="add" type="button" data-add="Veggie Momos (Fry)" data-price="100">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Veggie Spring Roll</div>
     <div class="ds">Crisp fried vegetable spring roll</div>
@@ -716,6 +746,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹100</div>
   <button class="add" type="button" data-add="Veggie Spring Roll" data-price="100">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Momos (Steam)</div>
     <div class="ds">Steamed paneer momos</div>
@@ -723,6 +754,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹110</div>
   <button class="add" type="button" data-add="Paneer Momos (Steam)" data-price="110">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Paneer Momos (Fry)</div>
     <div class="ds">Pan-fried paneer momos</div>
@@ -730,6 +762,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹130</div>
   <button class="add" type="button" data-add="Paneer Momos (Fry)" data-price="130">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Tandoori Momos (Fry)</div>
     <div class="ds">Fried momos tossed in tandoori masala</div>
@@ -737,6 +770,7 @@ footer a:hover{color:var(--pav)}
   <div class="pr">₹150</div>
   <button class="add" type="button" data-add="Tandoori Momos (Fry)" data-price="150">+ Add</button>
 </div><div class="row">
+  
   <div class="meta">
     <div class="nm"><span class="veg" role="img" aria-label="Vegetarian"></span>Kur-kura Momos (Fry)</div>
     <div class="ds">Crispy-coated fried momos</div>
